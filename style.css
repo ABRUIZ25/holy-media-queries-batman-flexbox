@@ -49,3 +49,20 @@
   width: 100vw;
   background-color: #f08a4b;
 }
+@media (max-width: 830px) {
+  #app {
+    display: flexbox;
+  }
+
+  #nav {
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #ads {
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+}
